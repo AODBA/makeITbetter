@@ -5,7 +5,7 @@ instances = [1, 2, 50, 100, 500, 5000]
 price =    [10, 2, 12, 16, 54.25, 1]
 
 
-def interpolate(n):
+def interpolate(n,instances,price):
     wk = workers.work(n,instances,price)
 
     if (n < 2 or n > 2000):
